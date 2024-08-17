@@ -12,7 +12,7 @@ class RecipePhoto extends Model
     use HasFactory, SoftDeletes;
 
     protected $fillable = [
-        'name',
+        'photo',
         'recipe_id'
     ];
 
