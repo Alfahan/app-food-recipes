@@ -42,7 +42,7 @@ class CategoryResource extends Resource
                 //
                 Tables\Columns\TextColumn::make('name')
                 ->searchable(),
-                Tables\Columns\TextColumn::make('icon'),
+                Tables\Columns\ImageColumn::make('icon'),
             ])
             ->filters([
                 //
