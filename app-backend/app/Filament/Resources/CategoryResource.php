@@ -25,7 +25,7 @@ class CategoryResource extends Resource
             ->schema([
                 //
                 Forms\Components\TextInput::make('name')
-                ->helperText('Hunakan nama data dengan tepat.')
+                ->helperText('Gunakan nama data dengan tepat.')
                 ->required()
                 ->maxLength(255),
 
